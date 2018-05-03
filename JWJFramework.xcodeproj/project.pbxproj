@@ -10,6 +10,8 @@
 		65865727209429B8006CEDE9 /* JWJFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 65865725209429B8006CEDE9 /* JWJFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6586572F209429C1006CEDE9 /* JWJCreatViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */; };
 		65865735209441AA006CEDE9 /* JWJCreatViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D1701F209AEB76008FDCFB /* MyNewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D1701D209AEB76008FDCFB /* MyNewView.h */; };
+		65D17020209AEB76008FDCFB /* MyNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1701E209AEB76008FDCFB /* MyNewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		65865726209429B8006CEDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWJCreatViewHelper.m; sourceTree = "<group>"; };
 		6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWJCreatViewHelper.h; sourceTree = "<group>"; };
+		65D1701D209AEB76008FDCFB /* MyNewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNewView.h; sourceTree = "<group>"; };
+		65D1701E209AEB76008FDCFB /* MyNewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 				65865725209429B8006CEDE9 /* JWJFramework.h */,
 				6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */,
 				6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */,
+				65D1701D209AEB76008FDCFB /* MyNewView.h */,
+				65D1701E209AEB76008FDCFB /* MyNewView.m */,
 				65865726209429B8006CEDE9 /* Info.plist */,
 			);
 			path = JWJFramework;
@@ -66,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65865727209429B8006CEDE9 /* JWJFramework.h in Headers */,
+				65D1701F209AEB76008FDCFB /* MyNewView.h in Headers */,
 				65865735209441AA006CEDE9 /* JWJCreatViewHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6586572F209429C1006CEDE9 /* JWJCreatViewHelper.m in Sources */,
+				65D17020209AEB76008FDCFB /* MyNewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
