@@ -12,7 +12,7 @@
 
 + (UILabel *)creatNewLabel;
 {
-    UILabel *label=[[UILabel alloc]initWithFrame:CGRectMake(10, 100, 100, 30)];
+    UILabel *label=[[UILabel alloc]initWithFrame:CGRectMake(10, 100, 200, 30)];
     label.textColor=[UIColor orangeColor];
     [label setBackgroundColor:[UIColor lightGrayColor]];
     label.text=@"我是SDK中的Label！";
@@ -22,8 +22,8 @@
 }
 + (UIImageView *)creatNewImageView;{
     
-    UIImageView *imageV  =[[UIImageView alloc] initWithFrame:CGRectMake(50,200,50,50)];
-    imageV.image = [UIImage  imageNamed:@"open"];
+    UIImageView *imageV  =[[UIImageView alloc] initWithFrame:CGRectMake(10,200,100,100)];
+    imageV.image = [UIImage  imageNamed:@"JWJFramework.bundle/open"];
     imageV.backgroundColor = [UIColor clearColor];
     return imageV;
 }

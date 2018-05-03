@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		65865727209429B8006CEDE9 /* JWJFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 65865725209429B8006CEDE9 /* JWJFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6586572F209429C1006CEDE9 /* JWJCreatViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */; };
+		65865735209441AA006CEDE9 /* JWJCreatViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65865722209429B8006CEDE9 /* JWJFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWJFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65865725209429B8006CEDE9 /* JWJFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWJFramework.h; sourceTree = "<group>"; };
 		65865726209429B8006CEDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWJCreatViewHelper.m; sourceTree = "<group>"; };
+		6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWJCreatViewHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				65865725209429B8006CEDE9 /* JWJFramework.h */,
+				6586572E209429C1006CEDE9 /* JWJCreatViewHelper.h */,
+				6586572D209429C1006CEDE9 /* JWJCreatViewHelper.m */,
 				65865726209429B8006CEDE9 /* Info.plist */,
 			);
 			path = JWJFramework;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65865727209429B8006CEDE9 /* JWJFramework.h in Headers */,
+				65865735209441AA006CEDE9 /* JWJCreatViewHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6586572F209429C1006CEDE9 /* JWJCreatViewHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +260,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -259,6 +268,8 @@
 				INFOPLIST_FILE = JWJFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.JWJFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -271,6 +282,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -278,6 +290,8 @@
 				INFOPLIST_FILE = JWJFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.JWJFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
